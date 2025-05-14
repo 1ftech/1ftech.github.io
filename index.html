@@ -10,32 +10,102 @@
 <body>
 
 <header>
+  <!-- Add your photo here -->
   <img src="Photo.png" alt="Iftekhar Ahmed">
   <h1>Iftekhar Ahmed</h1>
   <p>AI & Data Automation Specialist</p>
-  <button id="darkModeToggle">Toggle Dark Mode</button>
+
+  <!-- Dark Mode Toggle Button -->
+  <button id="dark-mode-toggle">🌙 Toggle Dark Mode</button>
 </header>
 
 <main>
   <section class="card">
     <h2>Welcome</h2>
-    <p>Welcome to my personal portfolio! I'm Iftekhar Ahmed...</p>
+    <p>
+      Welcome to my personal portfolio! I'm Iftekhar Ahmed, an AI & Data Automation Specialist with a passion for building intelligent systems that bridge the gap between data science and software engineering.
+      This site highlights my projects, professional experience, and expertise in AI, machine learning, and large language models.
+    </p>
   </section>
 
-  <!-- Other sections (About Me, Education, Experience, etc.) remain unchanged -->
-  
+  <section class="card">
+    <h2>🔍 About Me</h2>
+    <p>
+      I'm an AI Automation Engineer with 3+ years of experience transforming data into actionable insights and building scalable AI-driven systems. My recent work involves:
+    </p>
+    <ul>
+      <li>Fine-tuning Large Language Models (LLMs) for domain-specific tasks.</li>
+      <li>Building retrieval-augmented generation (RAG) systems.</li>
+      <li>Prototyping with LangChain, Hugging Face Transformers, and open-source models like LLaMA.</li>
+      <li>Automating ETL pipelines using Airflow, SQL, and AWS Lambda.</li>
+      <li>Creating dashboards and real-time analytics solutions using Tableau and Power BI.</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>🎓 Education</h2>
+    <p>
+      <strong>M.Sc. in Data Science</strong><br>
+      Universität Potsdam, Germany (Expected 2025)
+    </p>
+    <p>
+      <strong>B.Sc. in Computer Science</strong><br>
+      Atish Dipankar University of Science & Technology, Dhaka, Bangladesh (2018)
+    </p>
+  </section>
+
+  <section class="card">
+    <h2>💼 Experience</h2>
+    <h3>Kloeckner.i GmbH, Berlin — Data & Automation Engineer (Werkstudent)</h3>
+    <p>August 2020 – July 2023</p>
+    <ul>
+      <li>Created scalable ML models and ETL pipelines.</li>
+      <li>Built Power BI dashboards and automated data workflows.</li>
+      <li>Collaborated cross-functionally with Product and Data teams.</li>
+    </ul>
+    <h3>ADN EduServices Ltd., Dhaka — Python Backend Engineer</h3>
+    <p>July 2017 – August 2019</p>
+    <ul>
+      <li>Developed APIs with Django & FastAPI.</li>
+      <li>Managed Docker/Kubernetes microservices.</li>
+      <li>Secured systems using JWT & OAuth2.</li>
+    </ul>
+  </section>
+
+  <section class="card">
+    <h2>🛠️ Skills & Tools</h2>
+    <p>
+      <strong>Languages:</strong> Python, JavaScript, Kotlin, SQL<br>
+      <strong>AI/ML:</strong> TensorFlow, PyTorch, Hugging Face, LLMs, RAG<br>
+      <strong>Data Tools:</strong> Airflow, Pandas, Numpy, Tableau, Power BI<br>
+      <strong>Cloud & DevOps:</strong> AWS Lambda, Docker, Kubernetes, GitHub Actions
+    </p>
+  </section>
+
   <section class="card">
     <h2>🌟 Projects</h2>
-    <input type="text" id="projectSearch" placeholder="Search projects..." />
-    <ul id="projectList">
+    <div>
+      <!-- Project Filter Buttons (For Interactivity in JavaScript) -->
+      <button class="filter-btn" onclick="filterProjects('AI')">AI Projects</button>
+      <button class="filter-btn" onclick="filterProjects('Automation')">Automation Projects</button>
+      <button class="filter-btn" onclick="filterProjects('All')">All Projects</button>
+    </div>
+    <ul id="projects-list">
       <li><a href="https://github.com/1ftech/IBM-AI-Developer-Project" target="_blank">IBM AI DEVELOPER PROJECT</a></li>
       <li><a href="https://github.com/1ftech/Google-IT-Automation-Project" target="_blank">GOOGLE IT AUTOMATION PROJECT</a></li>
       <li><a href="https://github.com/1ftech/Building-Systems-with-ChatGPT-API" target="_blank">BUILDING SYSTEMS WITH CHATGPT API</a></li>
       <li><a href="https://github.com/1ftech/Prompt-Engineering-with-LLAMA-2-3" target="_blank">PROMPT ENGINEERING WITH LLAMA 2 & 3</a></li>
       <li><a href="https://github.com/1ftech/LangChain-for-LLM-Application-Development" target="_blank">LANGCHAIN FOR LLM APPLICATION DEVELOPMENT</a></li>
     </ul>
+    <p>More on my GitHub: <a href="https://github.com/1ftech" target="_blank">github.com/1ftech</a></p>
   </section>
 
+  <section class="card">
+    <h2>📫 Contact</h2>
+    <p>Email: <a href="mailto:iftekharahmed.de@gmail.com">iftekharahmed.de@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/ahmed-iftekhar" target="_blank">linkedin.com/in/ahmed-iftekhar</a></p>
+    <p>GitHub: <a href="https://github.com/1ftech" target="_blank">github.com/1ftech</a></p>
+  </section>
 </main>
 
 <footer>
