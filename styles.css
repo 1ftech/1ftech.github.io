@@ -1,25 +1,12 @@
-/* Base styles remain here */
-
-.dark-mode {
-  background-color: #0f172a;
-  color: #f0f0f0;
+body.dark-mode {
+  background-color: #121212;
+  color: #f4f4f4;
 }
 
-.dark-mode .card {
-  background-color: #1e293b;
-  color: #f0f0f0;
+header.dark-mode {
+  background-color: #333;
 }
 
-button {
-  background-color: #6366f1;
-  color: white;
-  border: none;
-  padding: 0.5rem 1rem;
-  border-radius: 8px;
-  cursor: pointer;
-  margin-top: 1rem;
-}
-
-button:hover {
-  background-color: #4f46e5;
+footer.dark-mode {
+  background-color: #333;
 }
