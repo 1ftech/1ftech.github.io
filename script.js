@@ -13,3 +13,5 @@ document.getElementById('projectSearch').addEventListener('input', function() {
     project.style.display = text.includes(search) ? 'list-item' : 'none';
   });
 });
+
+
