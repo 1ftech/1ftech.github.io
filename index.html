@@ -10,12 +10,9 @@
 <body>
 
 <header>
-  <!-- Add your photo here -->
   <img src="Photo.png" alt="Iftekhar Ahmed">
   <h1>Iftekhar Ahmed</h1>
   <p>AI & Data Automation Specialist</p>
-
-  <!-- Dark Mode Toggle Button -->
   <button id="dark-mode-toggle">🌙 Toggle Dark Mode</button>
 </header>
 
@@ -24,7 +21,6 @@
     <h2>Welcome</h2>
     <p>
       Welcome to my personal portfolio! I'm Iftekhar Ahmed, an AI & Data Automation Specialist with a passion for building intelligent systems that bridge the gap between data science and software engineering.
-      This site highlights my projects, professional experience, and expertise in AI, machine learning, and large language models.
     </p>
   </section>
 
@@ -44,14 +40,8 @@
 
   <section class="card">
     <h2>🎓 Education</h2>
-    <p>
-      <strong>M.Sc. in Data Science</strong><br>
-      Universität Potsdam, Germany (Expected 2025)
-    </p>
-    <p>
-      <strong>B.Sc. in Computer Science</strong><br>
-      Atish Dipankar University of Science & Technology, Dhaka, Bangladesh (2018)
-    </p>
+    <p><strong>M.Sc. in Data Science</strong><br>Universität Potsdam, Germany (Expected 2025)</p>
+    <p><strong>B.Sc. in Computer Science</strong><br>Atish Dipankar University of Science & Technology, Dhaka, Bangladesh (2018)</p>
   </section>
 
   <section class="card">
@@ -74,34 +64,31 @@
 
   <section class="card">
     <h2>🛠️ Skills & Tools</h2>
-    <p>
-      <strong>Languages:</strong> Python, JavaScript, Kotlin, SQL<br>
-      <strong>AI/ML:</strong> TensorFlow, PyTorch, Hugging Face, LLMs, RAG<br>
-      <strong>Data Tools:</strong> Airflow, Pandas, Numpy, Tableau, Power BI<br>
-      <strong>Cloud & DevOps:</strong> AWS Lambda, Docker, Kubernetes, GitHub Actions
-    </p>
+    <p><strong>Languages:</strong> Python, JavaScript, Kotlin, SQL<br>
+    <strong>AI/ML:</strong> TensorFlow, PyTorch, Hugging Face, LLMs, RAG<br>
+    <strong>Data Tools:</strong> Airflow, Pandas, Numpy, Tableau, Power BI<br>
+    <strong>Cloud & DevOps:</strong> AWS Lambda, Docker, Kubernetes, GitHub Actions</p>
   </section>
 
   <section class="card">
     <h2>🌟 Projects</h2>
-    <div>
-      <!-- Project Filter Buttons (For Interactivity in JavaScript) -->
-      <button class="filter-btn" onclick="filterProjects('AI')">AI Projects</button>
-      <button class="filter-btn" onclick="filterProjects('Automation')">Automation Projects</button>
-      <button class="filter-btn" onclick="filterProjects('All')">All Projects</button>
+    <div class="project-filters">
+      <button class="filter-btn" data-filter="all">All</button>
+      <button class="filter-btn" data-filter="ai">AI</button>
+      <button class="filter-btn" data-filter="automation">Automation</button>
     </div>
     <ul id="projects-list">
-      <li><a href="https://github.com/1ftech/IBM-AI-Developer-Project" target="_blank">IBM AI DEVELOPER PROJECT</a></li>
-      <li><a href="https://github.com/1ftech/Google-IT-Automation-Project" target="_blank">GOOGLE IT AUTOMATION PROJECT</a></li>
-      <li><a href="https://github.com/1ftech/Building-Systems-with-ChatGPT-API" target="_blank">BUILDING SYSTEMS WITH CHATGPT API</a></li>
-      <li><a href="https://github.com/1ftech/Prompt-Engineering-with-LLAMA-2-3" target="_blank">PROMPT ENGINEERING WITH LLAMA 2 & 3</a></li>
-      <li><a href="https://github.com/1ftech/LangChain-for-LLM-Application-Development" target="_blank">LANGCHAIN FOR LLM APPLICATION DEVELOPMENT</a></li>
+      <li class="project ai"><a href="https://github.com/1ftech/IBM-AI-Developer-Project" target="_blank">IBM AI DEVELOPER PROJECT</a></li>
+      <li class="project automation"><a href="https://github.com/1ftech/Google-IT-Automation-Project" target="_blank">GOOGLE IT AUTOMATION PROJECT</a></li>
+      <li class="project ai"><a href="https://github.com/1ftech/Building-Systems-with-ChatGPT-API" target="_blank">BUILDING SYSTEMS WITH CHATGPT API</a></li>
+      <li class="project ai"><a href="https://github.com/1ftech/Prompt-Engineering-with-LLAMA-2-3" target="_blank">PROMPT ENGINEERING WITH LLAMA 2 & 3</a></li>
+      <li class="project ai"><a href="https://github.com/1ftech/LangChain-for-LLM-Application-Development" target="_blank">LANGCHAIN FOR LLM APPLICATION DEVELOPMENT</a></li>
     </ul>
-    <p>More on my GitHub: <a href="https://github.com/1ftech" target="_blank">github.com/1ftech</a></p>
+    <p>More on GitHub: <a href="https://github.com/1ftech" target="_blank">github.com/1ftech</a></p>
   </section>
 
   <section class="card">
-    <h2>📫 Contact</h2>
+    <h2>📨 Contact</h2>
     <p>Email: <a href="mailto:iftekharahmed.de@gmail.com">iftekharahmed.de@gmail.com</a></p>
     <p>LinkedIn: <a href="https://www.linkedin.com/in/ahmed-iftekhar" target="_blank">linkedin.com/in/ahmed-iftekhar</a></p>
     <p>GitHub: <a href="https://github.com/1ftech" target="_blank">github.com/1ftech</a></p>
@@ -115,3 +102,4 @@
 <script src="script.js"></script>
 </body>
 </html>
+
