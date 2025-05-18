@@ -168,6 +168,46 @@ body {
   text-decoration: underline;
 }
 
+/* Certificate Grid Styling */
+.cert-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+  padding-top: 1rem;
+}
+
+.certificate-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 1rem;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05);
+  max-width: 280px;
+  margin: 0 auto;
+}
+
+.certificate-card img {
+  width: 100%;
+  max-height: 160px;
+  object-fit: contain;
+  border-radius: 6px;
+  margin-bottom: 0.75rem;
+}
+
+.certificate-card h4 {
+  margin: 0.5rem 0;
+  font-size: 1rem;
+}
+
+.certificate-card a {
+  color: #2563eb;
+  font-weight: 600;
+  font-size: 0.95rem;
+  text-decoration: none;
+}
+
+
 /* Footer */
 .footer {
   text-align: center;
