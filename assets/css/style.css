@@ -134,7 +134,7 @@ body {
 }
 
 .projects-list li {
-  margin-bottom: 0.8rem;
+  margin-bottom: 1.5rem;
 }
 
 .projects-list a {
@@ -150,6 +150,13 @@ body {
   color: #1e40af;
   text-decoration: underline;
 }
+
+.projects-list li p {
+  margin: 0.25rem 0 0 0;
+  font-size: 0.95rem;
+  color: #555;
+}
+
 
 /* Contact */
 .contact p {
